@@ -1,0 +1,40 @@
+# Qt-specific files
+*.pro.user
+*.pro.user.*
+*.qws
+*.pdb
+*.ilk
+*.exp
+
+# Build directories
+build*/
+debug/
+release/
+
+# Qt temp files
+*.tmp
+*.cache
+*.qmlc
+*.jsc
+Makefile*
+*build-*
+
+# Qt Creator files
+*.autosave
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Generated files
+moc_*.cpp
+moc_*.h
+qrc_*.cpp
+ui_*.h
